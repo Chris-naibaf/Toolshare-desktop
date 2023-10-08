@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "toolshare"
+version = "0.1.0"
+description = "A tool management system based built with Python and tkinter"
+authors = ["chrisnaibaf <chris.naibaf@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+ttkbootstrap = "^1.10.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
